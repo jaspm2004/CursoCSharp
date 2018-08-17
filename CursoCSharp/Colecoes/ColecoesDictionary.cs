@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 
 namespace CursoCSharp.Colecoes
-{
+{    
     class ColecoesDictionary
     {
         public static void Executar() {
@@ -32,7 +32,7 @@ namespace CursoCSharp.Colecoes
 
             foreach (var film in filmes) {
                 Console.WriteLine("O {0} é de {1}", film.Value, film.Key);
-            }
+            }            
         }
     }
 }
